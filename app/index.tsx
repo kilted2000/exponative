@@ -11,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text style={colorScheme === 'dark' ? styles.darkText : styles.lightText}>test test test.</Text>
+      <Text style={colorScheme === 'dark' ? styles.darkText : styles.lightText}> test test.</Text>
     </View>
   );
 }
